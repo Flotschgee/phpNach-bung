@@ -6,6 +6,8 @@
  * Time: 11:21
  */
 
+namespace krammer\ball;
+
 require_once("ballinterface.php");
 require_once("balls.php");
 

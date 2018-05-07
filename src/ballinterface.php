@@ -6,6 +6,8 @@
  * Time: 10:52
  */
 
+namespace krammer\ball;
+
 interface ballinterface{
 
     public function volumen() : float;

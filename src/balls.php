@@ -1,18 +1,3 @@
-<html>
-<body>
-<form action="balls.php" method="get">
-    <input type="radio" value="html" name="jsonHtml"> Html
-    <input type="radio" value="json" name="jsonHtml"> Json
-    <input type="submit" value="String Ausgabe" name="ausgabe">
-
-    <input type="radio" value="Leder" name="material"> Leder
-    <input type="radio" value="Plastik" name="material"> Plastik
-    <input type="radio" value="Gummi" name="material"> Gummi
-
-
-</form>
-</body>
-</html>
 <?php
 /**
  * Created by PhpStorm.
@@ -20,6 +5,8 @@
  * Date: 02.05.2018
  * Time: 11:55
  */
+
+namespace krammer\ball;
 
 require_once("ballinterface.php");
 require_once("basketball.php");
