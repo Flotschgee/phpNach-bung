@@ -1,0 +1,18 @@
+{
+    "name": "balls/krammer",
+    "description": "Nachübung php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Krammer",
+            "email": "flokra13@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "C:\\Users\\Acer\\Desktop\\Schule\\4BI\\Webtechnologie\\WebTech (Programmieren)\\Php Prüfung\\src": "src/"
+        }
+    }
+}
